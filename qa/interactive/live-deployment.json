@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-09-28T06:29:30.397287+00:00",
+  "live_url": "https://freedomlab.nyc/voicehardware/",
+  "source_commit": "5557cead073412c929a0dc49f816560578207c40",
+  "website_commit": "c9b51caf69f86bc4e7eb0612c19f92c87958992d",
+  "deploy_url": "https://github.com/FreedomLabNYC/freedomlabnyc-website/actions/runs/36386283564",
+  "deploy_status": "success",
+  "command": "python scripts/verify_site.py https://freedomlab.nyc/voicehardware/",
+  "exit_code": 0,
+  "results": "results.json",
+  "screenshots_visually_inspected": [
+    "contact-1440.jpg",
+    "contact-390.jpg",
+    "page-1440.png",
+    "page-390.png"
+  ],
+  "asset_verification": [
+    {
+      "url": "https://freedomlab.nyc/voicehardware/index.html",
+      "matches_source": true,
+      "sha256": "36f56000f3869c2c88b99bf540d8b52bd5849aa27209a4d2855d2cf4e7d3ec10"
+    },
+    {
+      "url": "https://freedomlab.nyc/voicehardware/viewer.css",
+      "matches_source": true,
+      "sha256": "cf3e7cbd0ac2cbaa8086cbf97fa5295dd07de37dd4f3e1ba7f248e815df4f7ba"
+    },
+    {
+      "url": "https://freedomlab.nyc/voicehardware/js/assembly-viewer.js",
+      "matches_source": true,
+      "sha256": "34c02612fb6098645d1b6cd51c546ad5166a19683002a94310b8bf37f0c65db5"
+    },
+    {
+      "url": "https://freedomlab.nyc/voicehardware/js/hardware-models.js",
+      "matches_source": true,
+      "sha256": "de477b33b4654acf19e45d229a56d4192bc7691415a33f0611e60b309d586a2a"
+    },
+    {
+      "url": "https://freedomlab.nyc/voicehardware/assets/models/voice397.glb",
+      "matches_source": true,
+      "sha256": "7c4da6894420c23b48b282f9b2c709a8ac9897646188acaffea92808ae26ac4b"
+    }
+  ]
+}
