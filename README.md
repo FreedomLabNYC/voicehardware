@@ -2,7 +2,9 @@
 
 [Live comparison](https://freedomlab.nyc/voicehardware/) · [Hardware sources](REFERENCES.md) · [Agent instructions](AGENTS.md)
 
-An editable visual concept, **not fit-tested hardware or a manufacturing design**. The current 3.97-inch Wi-Fi/USB reader has a source-sized board/display, a proposed case, physical PTT and speaker apertures. Battery selection and electrical/acoustic integration remain unresolved.
+Four source-grounded **interactive assembly studies**: M5StickS3 K150, ZECTRIX NOTE4 Developer Kit, Waveshare 3.97 SKU33552 and Waveshare 1.54 V2 SKU32298. These are **not fit-tested hardware or manufacturing designs**. Manufacturer dimensions are separated from approximate internal envelopes. The 3.97 viewer retains the existing EEVEE geometry and proposed graphite/orange case. No invented battery geometry, mandatory LTE stack or unverified working voice roundtrip.
+
+See [interactive viewer editing, sources, limitations and QA](docs/INTERACTIVE_VIEWERS.md) and the [change manifest](docs/CHANGE_MANIFEST.md).
 
 ## Contents
 - `site/`: the complete public comparison, three actual MP4s, poster images and linked hardware details. No login needed.
@@ -21,7 +23,7 @@ python -m pip install -r requirements.txt
 python -m playwright install chromium
 python -m http.server 8000 --bind 127.0.0.1 --directory site
 ```
-Open http://127.0.0.1:8000 and edit `site/index.html`. Run `python scripts/verify_site.py` (it starts its own temporary server). Tests exercise native playback/seek/pause, hardware sections, GitHub link and narrow/desktop overflow. Screenshots are saved under `qa/`.
+Open http://127.0.0.1:8000 and edit `site/index.html`, `site/viewer.css` and `site/js/{assembly-viewer,hardware-models}.js`. Run `python scripts/verify_site.py` (it starts its own byte-range-capable temporary server). Tests exercise all four real WebGL viewers on desktop/mobile, deterministic scrubbing, orbit, selection, occlusion, pause/resume, the GitHub link and all three preserved films. New screenshots and results are saved under `qa/interactive/`; the earlier film-only QA files are left intact.
 
 ## Current Blender rebuild
 Needs Blender 5.x (original scene produced in 5.2.0), Python 3.11+, Pillow and FFmpeg/ffprobe on PATH. Blender uses its bundled Python; do not pip-install bpy. CPU Cycles is available when Metal is absent; EEVEE still requires a supported graphics context. Set `VOICE_FONT` to a local TTF if automatic Arial/DejaVu lookup fails.
