@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:53289/",
+  "status": "PASS",
+  "videos": 3,
+  "hardware_sections": 3,
+  "hardware_links": 8,
+  "play_seek_pause": "pass",
+  "desktop_mobile_overflow": false,
+  "page_errors": []
+}

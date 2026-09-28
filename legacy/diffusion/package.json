@@ -1,0 +1,30 @@
+{
+  "name": "video-v5-flush-footprint",
+  "displayName": "video-v5-flush-footprint",
+  "private": true,
+  "type": "module",
+  "main": "index.tsx",
+  "scripts": {
+    "open": "dapi open .",
+    "context": "dapi context",
+    "capture": "dapi capture",
+    "probe": "dapi media probe",
+    "transcribe": "dapi media transcribe",
+    "grab": "dapi media grab",
+    "filmstrip": "dapi media filmstrip",
+    "waveform": "dapi media waveform",
+    "listen": "dapi media listen",
+    "models": "dapi models",
+    "voices": "dapi voices",
+    "fonts": "dapi fonts",
+    "whoami": "dapi whoami",
+    "logs": "dapi logs",
+    "screenshot": "dapi screenshot",
+    "report": "dapi report",
+    "fetch": "dapi fetch"
+  },
+  "devDependencies": {
+    "@diffusionstudio/jsx": "latest",
+    "solid-js": "^1.9.10"
+  }
+}

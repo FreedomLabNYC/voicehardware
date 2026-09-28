@@ -1,0 +1,33 @@
+{
+  "board_outline_mm": [
+    99.5,
+    60
+  ],
+  "board_radius_mm": 2,
+  "display_active_mm": [
+    86.4,
+    51.84
+  ],
+  "proposed_case_mm": [
+    112,
+    84,
+    23
+  ],
+  "cavity_mm": [
+    108,
+    80
+  ],
+  "lateral_board_clearance_mm": [
+    4.25,
+    4.0
+  ],
+  "frame_count": 480,
+  "fps": 24,
+  "film_seconds": 20,
+  "battery": "not modeled; USB concept; battery selection unresolved",
+  "geometry_status": "CONCEPT STUDY. Exact board 99.50 x 60.00 mm and active area 86.40 x 51.84 mm. Case 112 x 84 x 23 mm proposed. All other geometry, ports, PTT linkage, audio chamber, display thickness, stack and clearances conceptual, not physical fit proof. Wi-Fi only; no LTE/HAT; no invented battery/capacity.",
+  "sources": [
+    "https://docs.waveshare.com/ESP32-S3-ePaper-3.97"
+  ],
+  "object_count": 132
+}

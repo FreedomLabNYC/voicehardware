@@ -1,0 +1,15 @@
+{
+  "blender_version": "5.2.0 LTS",
+  "scene_build": "passed",
+  "reopened_geometry_validation": "PASS",
+  "camera_frames_checked": 480,
+  "smoke_frame": 440,
+  "smoke_render": "rendered in EEVEE and visually inspected",
+  "full_film": "existing previously rendered film preserved; not re-rendered during public packaging",
+  "legacy_diffusion_service_reexport": "not run",
+  "media_sha256": {
+    "eevee.mp4": "75f12bd07601c1909db9f4889fd3020be4870ad217f0f187668e204f0011d175",
+    "diffusion.mp4": "71955e99e7c348bbf23daeb3fdcec7e85329a5ea6673b03584858e453bb15d11",
+    "cycles.mp4": "509e0a84706c605ee833a0fbac96186fe89be38b4d42e783eafa5d677ef3c02a"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "blender": "5.2.0 LTS",
+  "reopened_scene": true,
+  "board_mm": [
+    99.5,
+    60.0,
+    1.600000023841858
+  ],
+  "active_display_mm": [
+    86.4000015258789,
+    51.84000015258789,
+    0.6000000238418579
+  ],
+  "case_xy_mm": [
+    112.0,
+    84.0
+  ],
+  "screen_and_aperture_raycast": {
+    "display": {
+      "first_hit": "Active area EXACT 86.40 x 51.84",
+      "height": 19.700002670288086
+    },
+    "speaker_slot": {
+      "first_hit": "Speaker grille backing",
+      "height": 18.800003051757812
+    },
+    "PTT": {
+      "first_hit": "Orange PTT cap - conceptual remote actuator",
+      "height": 23.949996948242188
+    },
+    "mic": {
+      "first_hit": "Rear shell / hollow solid",
+      "height": 2.0
+    }
+  },
+  "camera_frames_checked": 480,
+  "minimum_board_display_vertical_gap_mm": 2.40000057220459,
+  "minimum_rotating_board_above_rear_rim_mm": 4.600000000000001,
+  "camera_boundary_failures": [],
+  "status": "PASS",
+  "not_validated": [
+    "Physical fit",
+    "Electrical function",
+    "Acoustic performance",
+    "Thermal behavior",
+    "Manufacturability",
+    "Battery selection"
+  ]
+}
