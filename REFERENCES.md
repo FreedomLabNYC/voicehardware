@@ -15,6 +15,7 @@ Sourced board outline: 99.50 × 60.00 mm, R2; active screen: 86.40 × 51.84 mm. 
 Older Cycles/Diffusion films use simplified non-CAD geometry and illustrative power/audio components. These are not a bill of materials. Historical prices/shipping overlays are not current quotes. LTE is optional future work, not required for the current device.
 
 ## Software
+- [Schematik](https://www.schematik.io/) — AI hardware IDE for Arduino, ESP32, and Raspberry Pi Pico. Desktop 0.2.0 is installed on this Mac (`/Applications/Schematik Desktop.app`, Developer ID, notarized). Web app: https://www.schematik.io/app. Download: https://www.schematik.io/download. Related guide, not our hardware: [Hermes voice satellite](https://www.schematik.io/projects/build-a-hermes-voice-satellite). Generated wiring is not a fit test.
 - [Blender downloads](https://www.blender.org/download/) / [manual](https://docs.blender.org/manual/en/latest/)
 - [FFmpeg](https://ffmpeg.org/) (including ffprobe and libx264)
 - [Python](https://www.python.org/) / [Pillow](https://pillow.readthedocs.io/)
