@@ -14,6 +14,14 @@ Sourced board outline: 99.50 × 60.00 mm, R2; active screen: 86.40 × 51.84 mm. 
 
 Older Cycles/Diffusion films use simplified non-CAD geometry and illustrative power/audio components. These are not a bill of materials. Historical prices/shipping overlays are not current quotes. LTE is optional future work, not required for the current device.
 
+## Physical review — ESP32-S3-Touch-AMOLED-1.75, SKU31261
+- [Product page](https://www.waveshare.com/esp32-s3-touch-amoled-1.75.htm?sku=31261)
+- [Manufacturer documentation](https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-1.75)
+- [Dimension drawing](https://docs.waveshare.com/assets/images/ESP32-S3-Touch-AMOLED-1.75-details-size-75dc998071807f62c5915afad69d7e80.webp)
+- [Hermes Gadget SDK (firmware used in the review)](https://github.com/Adolanium/hermes-gadget-sdk)
+
+Sourced from the manufacturer drawing: round board 48.96 mm overall, PCB φ46.00 mm, 10.40 mm total depth, 2 × M2 mounting. Reviewed on one physical unit on 2026-10-30 running Hermes Gadget 0.4.1 (source build); hold-to-talk voice roundtrip through a local Hermes Agent verified by the operator. Battery, charging, TF, IMU and RTC not exercised; no enclosure or acoustic study; Wi-Fi/USB only. Full checklist in [docs/PHYSICAL_REVIEW_AMOLED-1.75.md](docs/PHYSICAL_REVIEW_AMOLED-1.75.md).
+
 ## Software
 - [Schematik](https://www.schematik.io/) — AI hardware IDE for Arduino, ESP32, and Raspberry Pi Pico. Desktop 0.2.0 is installed on this Mac (`/Applications/Schematik Desktop.app`, Developer ID, notarized). Web app: https://www.schematik.io/app. Download: https://www.schematik.io/download. Related guide, not our hardware: [Hermes voice satellite](https://www.schematik.io/projects/build-a-hermes-voice-satellite). Generated wiring is not a fit test.
 - [Blender downloads](https://www.blender.org/download/) / [manual](https://docs.blender.org/manual/en/latest/)

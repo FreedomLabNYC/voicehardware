@@ -4,6 +4,8 @@
 
 Four source-grounded **interactive assembly studies**: M5StickS3 K150, ZECTRIX NOTE4 Developer Kit, Waveshare 3.97 SKU33552 and Waveshare 1.54 V2 SKU32298. These are **not fit-tested hardware or manufacturing designs**. Manufacturer dimensions are separated from approximate internal envelopes. The 3.97 viewer retains the existing EEVEE geometry and proposed graphite/orange case. No invented battery geometry, mandatory LTE stack or unverified working voice roundtrip.
 
+The set now also carries its **first physical review**: a Waveshare ESP32-S3-Touch-AMOLED-1.75 (SKU31261) running Hermes Gadget firmware, with a working hold-to-talk voice roundtrip verified on hardware — see [docs/PHYSICAL_REVIEW_AMOLED-1.75.md](docs/PHYSICAL_REVIEW_AMOLED-1.75.md).
+
 See [interactive viewer editing, sources, limitations and QA](docs/INTERACTIVE_VIEWERS.md) and the [change manifest](docs/CHANGE_MANIFEST.md).
 
 ## Contents
@@ -14,6 +16,7 @@ See [interactive viewer editing, sources, limitations and QA](docs/INTERACTIVE_V
 - `legacy/cycles/`: earlier Cycles film's build/render/encode scripts.
 - `legacy/diffusion/`: earlier JSX overlay composition, source EEVEE plate renderer and actual plate MP4. Historical shipping quotes are not current.
 - `scripts/`: media refresh and real-browser website checks.
+- `docs/PHYSICAL_REVIEW_AMOLED-1.75.md`: first on-hardware review — Waveshare AMOLED 1.75 (SKU31261) with a verified working voice roundtrip.
 
 ## Website editing
 ```sh
