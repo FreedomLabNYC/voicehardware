@@ -17,6 +17,7 @@ See [interactive viewer editing, sources, limitations and QA](docs/INTERACTIVE_V
 - `legacy/diffusion/`: earlier JSX overlay composition, source EEVEE plate renderer and actual plate MP4. Historical shipping quotes are not current.
 - `scripts/`: media refresh and real-browser website checks.
 - `docs/PHYSICAL_REVIEW_AMOLED-1.75.md`: first on-hardware review — Waveshare AMOLED 1.75 (SKU31261) with a verified working voice roundtrip.
+- `skills/`: two sanitized Hermes agent runbooks — `m5sticks3-relay-debug` (M5StickS3 voice-stick relay) and `hermes-gadget-boards` (flashing/pairing Gadget ESP32 boards, incl. the AMOLED-1.75 pin map and first-flash checklist). Installable by copying into `~/.hermes/skills/`; plain markdown, usable by any agent.
 
 ## Website editing
 ```sh
