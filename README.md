@@ -2,7 +2,7 @@
 
 [Live comparison](https://freedomlab.nyc/voicehardware/) · [Hardware sources](REFERENCES.md) · [Agent instructions](AGENTS.md)
 
-Four source-grounded **interactive assembly studies**: M5StickS3 K150, ZECTRIX NOTE4 Developer Kit, Waveshare 3.97 SKU33552 and Waveshare 1.54 V2 SKU32298. These are **not fit-tested hardware or manufacturing designs**. Manufacturer dimensions are separated from approximate internal envelopes. The 3.97 viewer retains the existing EEVEE geometry and proposed graphite/orange case. No invented battery geometry, mandatory LTE stack or unverified working voice roundtrip.
+Five source-grounded **interactive assembly studies** in device order: M5StickS3 K150, Waveshare AMOLED 1.75 (SKU31261, also reviewed on real hardware), ZECTRIX NOTE4 Developer Kit, Waveshare 3.97 SKU33552 and Waveshare 1.54 V2 SKU32298. These are **not fit-tested hardware or manufacturing designs**. Manufacturer dimensions are separated from approximate internal envelopes. The 3.97 viewer retains the existing EEVEE geometry and proposed graphite/orange case. No invented battery geometry, mandatory LTE stack or unverified working voice roundtrip.
 
 The set now also carries its **first physical review**: a Waveshare ESP32-S3-Touch-AMOLED-1.75 (SKU31261) running Hermes Gadget firmware, with a working hold-to-talk voice roundtrip verified on hardware — see [docs/PHYSICAL_REVIEW_AMOLED-1.75.md](docs/PHYSICAL_REVIEW_AMOLED-1.75.md).
 

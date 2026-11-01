@@ -31,10 +31,10 @@ try:
    page=browser.new_page(viewport={'width':width,'height':1000 if width==1440 else 844},device_scale_factor=1,is_mobile=width==390,has_touch=width==390)
    page.on('pageerror',lambda e:report['errors'].append(str(e)))
    page.on('response',lambda r:report['network_errors'].append([r.status,r.url]) if r.status>=400 else None)
-   page.goto(sys.argv[1] if len(sys.argv)>1 else f'http://127.0.0.1:{server.server_port}/');page.wait_for_function('document.querySelectorAll("[data-ready=true]").length===4')
-   assert page.locator('[data-device]').evaluate_all('(es)=>es.map(e=>e.dataset.device)')==['stick','note4','397','154']
+   page.goto(sys.argv[1] if len(sys.argv)>1 else f'http://127.0.0.1:{server.server_port}/');page.wait_for_function('document.querySelectorAll("[data-ready=true]").length===5')
+   assert page.locator('[data-device]').evaluate_all('(es)=>es.map(e=>e.dataset.device)')==['stick','amoled','note4','397','154']
    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
-   for i,kind in enumerate(['stick','note4','397','154']):
+   for i,kind in enumerate(['stick','amoled','note4','397','154']):
     section=page.locator(f'[data-device="{kind}"]');stage=section.locator('.stage');stage.scroll_into_view_if_needed();page.wait_for_timeout(250)
     def state():return page.evaluate('(i)=>hardwareViewers[i].snapshot()',i)
     def scrub(v):
